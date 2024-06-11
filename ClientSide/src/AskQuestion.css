@@ -1,0 +1,55 @@
+/* AskQuestionForm.css */
+.ask-question-form {
+    background-color: #c5c5f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 350px;
+    margin-top: 70px;
+  }
+  
+  .ask-question-form h2 {
+    color: #8a2be2;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .ask-question-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .ask-question-form .form-group label {
+    display: block;
+    color: #6c3483;
+    margin-bottom: 5px;
+  }
+  
+  .ask-question-form .form-group input,
+  .ask-question-form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #6c3483;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .ask-question-form .form-group textarea {
+    resize: none;
+  }
+  
+  .ask-question-form button {
+    background-color: #8a2be2;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .ask-question-form button:hover {
+    background-color: #7326b5;
+  }
+  

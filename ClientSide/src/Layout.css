@@ -1,0 +1,36 @@
+/* Layout.css */
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.forum-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.forum-sidebar {
+    flex: 0 0 250px;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+
+.forum-main {
+    margin-left: 250px;
+    padding: 2rem;
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Add more CSS as needed for other components */
